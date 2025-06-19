@@ -8,8 +8,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { Separator } from '@/components/ui/separator';
-import { Search, Wifi, WifiOff, Zap, Maximize2, Minimize2, Copy } from 'lucide-react';
+import { Search, Zap, Maximize2, Minimize2, Copy } from 'lucide-react';
 import { identifyContact, checkHealth } from '@/services/api';
 
 const formSchema = z.object({
